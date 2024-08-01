@@ -1,0 +1,36 @@
+/* VerPerfil.css */
+
+.ver-perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.edit-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
